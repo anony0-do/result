@@ -1,0 +1,221 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
+    background: #ECF2FF;
+
+}
+    /*mtavari conteineri*/
+.containerone{
+    display: flex;
+    flex-direction: row;
+    border-radius: 32px;
+    background: #FFFFFF;
+    box-shadow: 0px 30px 60px 0px #3D6CEC26;
+}
+
+    /*pirveli conteineri*/
+.containertwo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    border-radius: 32px;
+    background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
+}
+h1{
+    font-family: Hanken Grotesk;
+    font-size: 24px;
+    font-weight: 50%;
+    line-height: 31px;
+    text-align: center;
+    color: #CAC9FF;
+}
+.oval{
+    width: 200px;
+    height: 200px;   
+    border-radius: 100px;
+    background: linear-gradient(180deg, #4D21C9 0%, rgba(37, 33, 201, 0) 100%, rgba(37, 33, 201, 0) 100%);
+}
+h2{
+    font-family: Hanken Grotesk;
+    font-size: 72px;
+    line-height: 72px;
+    text-align: center;
+    color: #FFFFFF;
+}
+h3{
+    color: #FFFFFF;
+    font-family: Hanken Grotesk;
+    font-size: 32px;    
+}
+h4{
+    font-family: Hanken Grotesk;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    color: #CAC9FF;
+}
+    /*meore qonteineris teqsti */
+.texttwo{
+    font-family: Hanken Grotesk;
+    color: #303B59;
+}
+
+.allcontainer{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 50px;
+}
+    /*patara conteinerebi*/
+.containers{
+    display: flex;
+    width: 288px;
+    height: 56px;
+    margin-top:17px;
+    border-radius: 12px;
+}
+.foto{
+    margin-left: 16px;
+}
+.containerstexts{
+    font-family: Hanken Grotesk;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+    margin-left: 12px;
+}
+.numbers{ 
+    display: flex;
+    font-family: Hanken Grotesk;
+    font-size: 18px;
+    color: #303B59;
+    width: 150px;
+    justify-content: flex-end;
+}
+
+#e{
+    width: 165px;
+}
+#m{
+    color: #868383
+}
+.asi{
+    width: 150px;
+    font-family: Hanken Grotesk;
+    font-size: 18px;
+    color: #303B59;
+    align-items: flex-end;
+}
+#l{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 128px;
+    background: #303B59;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+#l:hover{
+    scale: 0.95;
+}
+#l:active{
+    background-color:#485881;
+    scale: 1.05;
+}
+.lasttext{
+    font-family: Hanken Grotesk;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+    /*patara conteinerebis ferebi*/
+#f{
+    background: rgba(255, 226, 226, 0.596);
+}
+#s{
+    background: rgba(248, 224, 224, 0.596);
+}
+#t{
+    background: #c4fcef;
+}
+#te{
+    background: rgb(212, 212, 255)
+}
+    /*teqstebis ferebi*/
+#r{
+    color: #FF5555;
+}
+#y{
+    color: #FFB21E;
+}
+#g{
+    color: #00BB8F;
+}
+#b{
+    color: #1125D6;
+}
+@media (max-width: 720px){
+    .containerone{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        width:70%;
+        height: 95%;
+    }
+    .containertwo{
+        display: flex;
+        margin: 0;
+        width: 100%;
+        height:50%;  
+        justify-content: space-around;
+    }   
+    
+    .oval{
+        display: flex;
+        width:100px;
+        height: 100px;  
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    h2{
+        font-size:5vh;
+    }
+    .containers{
+        display:flex;
+        align-items: center;
+        width:100%;
+        height: 13%;
+    }
+    h3{
+        font-size:130%;
+    }
+    h4{
+        font-size:100%;
+    }
+    .texttwo{
+        height: 2%;
+    }
+    .allcontainer{
+        width:70%;
+        height: 45%;
+        margin: 0;
+    }
+    #l:hover{
+        scale: 1;
+
+    }
+    #l:active{
+        background-color: #303B59;
+        scale: 1;
+
+    }
+}
